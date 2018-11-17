@@ -8,6 +8,8 @@ print("Numbers {0} {1} {2}".format(x, y, z))
 
 print()
 # Precision Formatting
+# {message : {fill_character}{push_direction}{width}}
+# If Floating Value
 # {message : {fill_character}{push_direction}{width}.{precision}}
 print("Push {0:>12.4} Right".format(22/7))
 print("Push {0:<12.4} Left".format(22/7))
