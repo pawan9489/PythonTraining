@@ -1,37 +1,46 @@
-Chapter - 1
+Chapter - 1 (Basics)
     Variables
     Comments
     Command Line Arguments
     Formatted Printing
     Arithmetic Operations
     Numbers
+    Mathematical Funtions
     Strings
+    If...Else
+    Loops
     Functions
 
-Chapter - 2
+Chapter - 2 (Data Structures)
     List
     Tuples
     Dictionary
     Sets
-
+    
 Chapter - 3
     Modules
     Packaging
     Exception Handling
 
-Chapter - 4
-    OOPS
+Chapter - 4 (OOPS)
+    Classes and Objects
+    Inheritance
+    Duck Typing
+    Magic Methods
+    Resource Management
+    Multiple Inheritance
 
 Chapter - 5
-    Functional Programming
-    Lambdas
-    List Comprehensions
-    Closures
-
-Chapter - 6
     Iterators
     Generators 
+    List Comprehensions
+    Dictionary Comprehensions
     File I/O
+
+Chapter - 6 (Functional Programming)
+    Lambdas
+    Higher Order Functions
+    Closures
 
 
 -------- Upcoming Chapters --------
@@ -39,8 +48,18 @@ Chapter - 6
 Chapter - Numpy (Processing Vectors and Matrices)
     Linear Algebra
 
+Chapter - Scipy (Scientific Computations)
+    Probability Theory & Calculus
+
+Chapter - StatsModels (Statistical Data Analysis)
+    Statistics and Optimization Theory
+
 Chapter - Matplotlib (Visualization)
-    Calculus
 
 Chapter - Pandas (Data Frames)
     Fast, Flexible and Expressive data structures
+
+Chapter - Scikit-Learn (Machine Learning Library)
+    Machine Learning Algorithms
+
+Chapter - TensorFlow & Keras (Deep Learning)

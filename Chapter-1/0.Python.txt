@@ -1,6 +1,6 @@
 Python
     General Purpose Programming Language
-    Object Oriented, Functional
+    Object Oriented, Functional, Procedural
     Interpreted
     Dynamically Typed
     Strong Typed
