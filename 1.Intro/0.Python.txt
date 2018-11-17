@@ -1,0 +1,6 @@
+Python
+    General Purpose Programming Language
+    Object Oriented, Functional
+    Interpreted
+    Dynamically Typed
+    Strong Typed
