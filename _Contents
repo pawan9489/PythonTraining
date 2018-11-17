@@ -7,7 +7,9 @@ Chapter - 1 (Basics)
     Numbers
     Mathematical Funtions
     Strings
-    If...Else
+    String Functions
+    Operators
+    Conditionals
     Loops
     Functions
 
@@ -20,6 +22,7 @@ Chapter - 2 (Data Structures)
 Chapter - 3
     Modules
     Packaging
+    File I/O
     Exception Handling
 
 Chapter - 4 (OOPS)
@@ -35,7 +38,6 @@ Chapter - 5
     Generators 
     List Comprehensions
     Dictionary Comprehensions
-    File I/O
 
 Chapter - 6 (Functional Programming)
     Lambdas
