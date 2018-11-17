@@ -7,6 +7,7 @@ Chapter - 1 (Basics)
     Numbers
     Mathematical Funtions
     Strings
+    String Slicing
     String Functions
     Operators
     Conditionals
@@ -14,9 +15,13 @@ Chapter - 1 (Basics)
 
 Chapter - 2 (Data Structures)
     List
+    List Functions
     Tuples
+    Tuple Functions
     Dictionary
+    Dictionary Functions
     Sets
+    Set Functions
     
 Chapter - 3 (Code Organization)
     Functions
