@@ -1,6 +1,7 @@
 # Get Index of item
 # Appending Lists
 # Insert at Index
+# Membership
 # Remove Specific Item
 # pop
 # count 
@@ -9,3 +10,4 @@
 # flatMap
 # Reverse
 # Sort
+# Looping
