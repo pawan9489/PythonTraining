@@ -82,7 +82,15 @@ print("l = {0}".format(l))
 l.sort()
 print("l.sort() = {0}".format(l))
 
+print()
 # Looping
+print("l = {0}".format(l))
+for i in l:
+    print(i)
+
+print()
+print("max(l) = {0}".format(max(l)))
+print("min(l) = {0}".format(min(l)))
 
 # Below are discussed after "Higher order Functions"
 # filter
