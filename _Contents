@@ -23,14 +23,17 @@ Chapter - 2 (Data Structures)
     Type Conversions & Checking
     Conditionals Revisted
 
-Chapter - 3 (Code Organization)
+Chapter - 3 (Functional Programming)
     Functions
+    Global Vs Local Scopes
     Lambdas
+    Closures
+    Higher Order Functions
     Custom Key Sorting
-    Modules
-    Packaging
-    File I/O
-    Exception Handling
+    Iterators
+    Generators 
+    List Comprehensions
+    Dictionary Comprehensions
 
 Chapter - 4 (OOPS)
     Classes and Objects
@@ -42,13 +45,13 @@ Chapter - 4 (OOPS)
     Mixins
     Custom Container Objects
 
-Chapter - 5 (Functional Programming)
-    Iterators
-    Generators 
-    List Comprehensions
-    Dictionary Comprehensions
-    Higher Order Functions
-    Closures
+Chapter - 5 (Code Organization and Miscellaneous)
+    Modules
+    Packaging
+    File I/O
+    Date-Time
+    Exception Handling
+    Installing new Packages
 
 
 -------- Upcoming Chapters --------

@@ -22,10 +22,10 @@ print()
 # Default Parameters
 
 print()
-# Keyword Parameters
+# Keyword Arguments
 
 print()
-# Default Parameters
+# Variable Length Parameters
 
 print()
 # Default Parameters
