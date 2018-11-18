@@ -34,3 +34,25 @@ if a > b: print("a is greater than b")
 print()
 
 print("A") if a > b else print("B")
+
+print()
+# Multiple Conditons in multiple lines
+# Using Brackets
+c1, c2, c3, c4 = 1,2,3,4
+if (c1 == 1 and c2 == 2 and 
+       c3 == 3 and c4 == 4):
+    print(c1, c2, c3, c4)
+
+print()
+# Better way - Using BackSlashes (Continuation Character)
+# If any Extra Spaces after \ => SyntaxError: unexpected character after line continuation character
+if c1 == 1 and c2 == 2 and \
+        c3 == 3 and c4 == 4:
+    print(c1, c2, c3, c4)
+
+print()
+if  c1 == 1 and \
+    c2 == 2 and \
+    c3 == 3 and \
+    c4 == 4:
+    print(c1, c2, c3, c4)
