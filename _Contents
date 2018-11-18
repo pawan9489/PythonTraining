@@ -20,10 +20,13 @@ Chapter - 2 (Data Structures)
     Sets
     Set Functions
     Dictionary
-    Type Conversions
+    Type Conversions & Checking
+    Conditionals Revisted
 
 Chapter - 3 (Code Organization)
     Functions
+    Lambdas
+    Custom Key Sorting
     Modules
     Packaging
     File I/O
@@ -36,15 +39,13 @@ Chapter - 4 (OOPS)
     Magic Methods
     Resource Management
     Multiple Inheritance
+    Custom Container Objects
 
-Chapter - 5
+Chapter - 5 (Functional Programming)
     Iterators
     Generators 
     List Comprehensions
     Dictionary Comprehensions
-
-Chapter - 6 (Functional Programming)
-    Lambdas
     Higher Order Functions
     Closures
 
