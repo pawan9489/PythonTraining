@@ -1,5 +1,4 @@
 # Set is a collection which is unordered and unindexed. No duplicate members.
-# Dictionary is a collection which is unordered, changeable and indexed. No duplicate members.
 fruits = {'apple', 'banana', 'apple', 'cherry'}
 print(type(fruits))
 print(fruits)
