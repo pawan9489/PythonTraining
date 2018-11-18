@@ -16,6 +16,7 @@ print(sx)
 x = int(1)   # x will be 1
 y = int(2.8) # y will be 2
 z = int("3") # z will be 3
+# w = int("3.4") # ValueError: invalid literal for int() with base 10: '3.4'
 
 x = float(1)     # x will be 1.0
 y = float(2.8)   # y will be 2.8
