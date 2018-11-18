@@ -66,6 +66,26 @@ print("sum(1)  = {0}".format(sum(1)))
 print("sum(1,2)  = {0}".format(sum(1,2)))
 print("sum(1,2,3,4,5)  = {0}".format(sum(1,2,3,4,5)))
 
+print('------- Variable Length KeyWord Arguments -------')
+# Variable Length Arguments - Should be last parameter in function declaration
+def sumAmount(**persons):
+    "dictionary<name, money> => int"
+    print(type(persons))
+    s = 0
+    for name, money in persons.items():
+        print("{0} contributed {1}".format(name, money))
+        s += money
+    return s
+
+print("sum()  = {0}".format(sumAmount()))
+print("sumAmount(Jhon = 300,Jake = 500)  = {0}".format(sumAmount(Jhon = 300,Jake = 500)))
+
+'''
+Generic Function Declaration to take any kind of Inputs
+    def  func(*args, **kwargs): 
+        Body of Function
+'''
+
 print('------- Pass By Reference -------')
 # Pass By Reference # Same as Object passing in C# but not with ref
 # All arguments in the Python are passed by reference
