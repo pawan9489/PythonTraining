@@ -45,14 +45,21 @@ print(factorial(5))
 print()
 # Abstraction
 def person(name, job, age):
+    # Private Variables
+    ssn = age * 12 + 333
 
     # Private Function
     def getAge():
         return age
 
+    def getSSN():
+        return ssn
+
     # Public Funtion
     def printName(name):
-        print("Name of Person : ", name, " and person's age is", getAge())
+        print("Name of Person : ", name, 
+            " and person's age is", getAge(),
+            "SSN -> ", getSSN())
     
     # Public API
     return dict(
