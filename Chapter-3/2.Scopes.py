@@ -67,7 +67,7 @@ def person(name, job, age):
     return dict(
         n = name,
         j = job,
-        p = printName
+        p = printName # How does this work in JS?
     )
 p1 = person('John', 'Detective', 30)
 p2 = person('Mary', 'Doctor', 50)
