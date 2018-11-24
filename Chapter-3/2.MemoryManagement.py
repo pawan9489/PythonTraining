@@ -1,4 +1,4 @@
-# Literals - 
+# Literals - values assigned to Variables and Constants
 
 x = 10
 
