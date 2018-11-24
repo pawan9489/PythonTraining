@@ -1,10 +1,9 @@
-g = 0
-
 # WHY Function inside a Function ??
 #   Abstraction (Hiding) (Security)
 #   Simplification (Dont see Unncessary) - Inner() is only used by Outer()
 #   Currying - Get specialized functions from more general functions
 #   Partial Application - Reuse Existing Functionality
+g = 0
 def outer():
     o = 2
     def inner():

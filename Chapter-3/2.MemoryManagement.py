@@ -21,8 +21,8 @@ print(
 print()
 a = [1, 2, 3, 4, 5]
 b = 1
-print(id(b))
-print(id(a[0]))
+print("id(b) =\t",id(b))
+print("id(a[0]) =", id(a[0]))
 
 """
 CPP - https://www.onlinegdb.com/online_c++_compiler
