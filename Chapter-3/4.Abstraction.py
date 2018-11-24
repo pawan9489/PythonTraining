@@ -3,29 +3,7 @@
 #   Simplification (Dont see Unncessary) - Inner() is only used by Outer()
 #   Currying - Get specialized functions from more general functions
 #   Partial Application - Reuse Existing Functionality
-g = 0
-def outer():
-    o = 2
-    def inner():
-        i = 10
-        print("Inner - g", g, id(g))
-        print("Inner - i", i, id(i))
-        print("Inner - o", o, id(o))
-        # Below Code Creates new 'o' variable
-        # o = 20 # will loose the outer 'o'
-        # print("Inner - o", o, id(o))
-    print("Outer - g", g, id(g))
-    print("Outer - o", o, id(o))
-    inner()
-    print("Outer - o", o, id(o))
-    print(x)
 
-# Comment x and see failure
-x = 'Python'
-outer()
-# x = 'Python'
-
-print()
 # Simplification - Factorial Example via Tail Recursion
 def fact(number, accumulation):
     if number <= 1:
