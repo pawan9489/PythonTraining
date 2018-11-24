@@ -1,5 +1,5 @@
 # WHY Function inside a Function ??
-#   Abstraction (Hiding) (Security)
+#   Abstraction (Hiding) (Security) (ex: Envelope)
 #   Simplification (Dont see Unncessary) - Inner() is only used by Outer()
 #   Currying - Get specialized functions from more general functions
 #   Partial Application - Reuse Existing Functionality
