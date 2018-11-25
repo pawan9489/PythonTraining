@@ -25,9 +25,12 @@ Chapter - 2 (Data Structures)
 
 Chapter - 3 (Functional Programming)
     Functions
+    Memory Management
     Global Vs Local Scopes
-    Lambdas
-    Closures
+    Abstraction
+    Lambdas and Closures
+    Currying
+    Partial Application
     Higher Order Functions
     Custom Key Sorting
     Iterators
