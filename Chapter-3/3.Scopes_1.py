@@ -1,5 +1,5 @@
 # Local and Global Scope
-# Global variable - Variables declared outside of a Function
+# Global variable - Variables declared outside of Every Function
 # Local variable - Variables declared inside of a Function
 
 g = 0 # Global Variable
