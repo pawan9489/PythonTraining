@@ -15,7 +15,6 @@ func()
 
 print('--------------------------')
 a, b, x, y, z = 13, 5, 2, 8, 16
-
 def m1(x, y):
     global a
     a = 35
@@ -25,5 +24,5 @@ def m1(x, y):
     c = 97
     print(a, b, x, y, z)
 print()
-m1(12, 7)
-print(a, b, x, y, z)
+m1(12, 7) # 
+print(a, b, x, y, z) # 
