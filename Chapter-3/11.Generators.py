@@ -12,6 +12,7 @@
         Receive input with each yield
 
     Generator is One type of Iterator
+    They can Suspend and Resume
     # C# Yield Return
 
 """
@@ -41,9 +42,9 @@ print(next(g))
 print(next(g))
 # print(next(g)) # StopIteration Error
 
-# Bi Directional - Co Routines
+# Bi Directional - Generators
 
-import random as r
+import random
 
 sentences = [
     'Hi, How are you?',
@@ -56,12 +57,15 @@ def random_conversations():
 
     receive = yield 'Hi'
     while receive != 'Bye!':
-        receive = yield r.choice(sentences)
+        receive = yield random.choice(sentences)
     # Don't have to explicitly throw StopIteration, End of function will automatically throw
 
 g = random_conversations()
 # To get first Item or To start a Geneartor, we need to send "None"
-print(g.send(None))
+# First Send - To get generators Started
+# Later Send's - To send values to the Generator
+first_item = g.send(None) # TypeError: can't send non-None value to a just-started generator
+print(first_item)
 while True:
     try:
         reply = g.send(input())

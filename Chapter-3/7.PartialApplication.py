@@ -1,36 +1,29 @@
 # Why Partial Application?
 # One Application of Currying - Reuse Existing Functionality
-def nth_power(n):
-    return lambda a : a ** n
 
-square = nth_power(2)
-cube = nth_power(3)
+def addA(f, a):
+    a = f(a) # Some Computation with Given params
+    def addB(b):
+        b = f(b)
+        def addC(c):
+            c = f(c)
+            def addD(d):
+                d = f(d)
+                return a + b + c + d
+            return addD
+        return addC
+    return addB
 
-print(square(3))
-print(cube(3))
+print('---  Double  ---')
+double = lambda i : i * 2
+print(addA(double, 1))
+print(addA(double, 1)(2))
+print(addA(double, 1)(2)(3))
+print(addA(double, 1)(2)(3)(4))
+print('---  Triple  ---')
+triple = lambda i : i * 3
+print(addA(triple, 1))
+print(addA(triple, 1)(2))
+print(addA(triple, 1)(2)(3))
+print(addA(triple, 1)(2)(3)(4))
 
-def increment_by_n(n):
-    return lambda x: x + n
-
-add2 = increment_by_n(2)
-
-print(add2(45))
-
-def curry(func):
-    f_args = []
-    f_kwargs = {}
-    def f(*args, **kwargs):
-        nonlocal f_args, f_kwargs
-        if args or kwargs:
-            f_args += args
-            f_kwargs.update(kwargs)
-            return f
-        else:
-            return func(*f_args, *f_kwargs)
-    return f
-
-def add(a, b, c, d):
-    return a + b + c + d
-a = curry(add)
-print()
-print("a(1)(2)(3)(4) = ", a(1,2)(3,4)())
