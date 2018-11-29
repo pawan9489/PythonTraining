@@ -55,8 +55,7 @@ printPersons(x)
 print()
 print('__ Sorted Via Age Asc and ID Desc __')
 x = sorted(
-        sorted(persons, key = lambda p: p.age),
-        key = lambda p: p.id, 
-        reverse = True
+        sorted(persons, key = lambda p: p.id, reverse = True),
+        key = lambda p: p.age
 )
 printPersons(x)
