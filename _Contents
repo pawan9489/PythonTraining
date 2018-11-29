@@ -31,12 +31,15 @@ Chapter - 3 (Functional Programming)
     Lambdas and Closures
     Currying
     Partial Application
+    Iterators
+    Generators
+    Lazy Evaluation
+    CoRoutines
+    Convinience Iterators
+    List and Dictionary Comprehensions
+    Generator Comprehensions
     Higher Order Functions
     Custom Key Sorting
-    Iterators
-    Generators 
-    List Comprehensions
-    Dictionary Comprehensions
 
 Chapter - 4 (OOPS)
     Classes and Objects
