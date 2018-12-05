@@ -64,7 +64,7 @@ def fibo():
     state = 0
     def helper():
         nonlocal state, return_values
-        while len(return_values): # Infinite Stream of Values
+        while True: # Infinite Stream of Values
             state += 1
             if state > 1 : # Non Direct Yields
                 s = sum(return_values[-2:])
