@@ -124,3 +124,5 @@ print(Rational(13 , 1))
 r2 = Rational.create(12)
 print(r1)
 
+# Python Interactive Shell 
+# python -i file_name.py

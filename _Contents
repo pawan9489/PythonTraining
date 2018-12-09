@@ -44,9 +44,13 @@ Chapter - 3 (Functional Programming)
 
 Chapter - 4 (OOPS)
     Classes and Objects
+    Static and Instance Properties
+    Multiple Constructors
+    Private Members
+    Getters and Setters
+    Magic or Dunder Methods
     Inheritance
     Duck Typing
-    Magic Methods
     Resource Management
     Multiple Inheritance
     Mixins
