@@ -77,3 +77,20 @@ print()
 f = fibo()
 for _ in range(10):
     print(f())
+
+def fibo2():
+    return_values = [1, 1] # Direct Yields
+    state = 0
+    def helper():
+        nonlocal state, return_values
+        state += 1
+        if state > 1 : # Non Direct Yields
+            s = sum(return_values[-2:])
+            return_values = [return_values[-1], s]
+        return return_values[-1]
+    return helper
+
+print()
+f = fibo2()
+for _ in range(10):
+    print(f())
