@@ -30,6 +30,7 @@
             r1 <= r2    
             r1 == r2
             r2 != r2
+        Sort List of Rationals
 '''
 
 class Rational:
@@ -110,19 +111,31 @@ class Rational:
         else:     
             raise TypeError("A Rational can only be Compared to a Number or other Rational")
 
-    # r1 < r2  == __lt__
+    # r1 < r2  == __lt__ # Enables sort for List<Rational>
+    def __lt__(self, r):
+        if isinstance(r, Rational):
+            return self.numerator * r.denominator < \
+                    self.denominator * r.numerator
+        elif type(r) is int or type(r) is float:
+            return self.numerator < \
+                    self.denominator * r
+        else:     
+            raise TypeError("A Rational can only be Compared to a Number or other Rational")
+
     # r1 <= r2 == __le__
     # r1 != r2 == __ne__
     # r1 > r2  == __gt__
     # r1 >= r2 == __ge__
 
 r1 = Rational(7 , 9)
-print(r1)
+print("r1", r1)
 print(Rational(13 , 1))
 
 # r2 = Rational(12)
 r2 = Rational.create(12)
-print(r1)
+print("r2", r2)
 
 # Python Interactive Shell 
 # python -i file_name.py
+rationals = [Rational(3,4), Rational.create(2), Rational(1, 2)]
+print(sorted(rationals))
