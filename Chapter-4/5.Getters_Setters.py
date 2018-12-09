@@ -18,7 +18,7 @@ class Person:
         self.age = a # Calling the Setter Function
 
     @property
-    def name(self):
+    def name(self): # Even though "name" is a function, can access as a variable
         print("getter of name called")
         return self._name # Access Instance Variable
 
@@ -72,7 +72,7 @@ print()
     
     Python Community treats the _var to be accessed only within the class
     __var -> private , can't be accessed directly
-    _vat  -> convention of using internal variables
+    _var  -> convention of using internal variables
 '''
 p._age = 9999
 print(p.__dict__)
