@@ -1,4 +1,5 @@
 # Magic or Dunder Methods - __Method__
+# Meta Object Protocol
 # Enrich your classes by providing some implementation
 # Accomplishes a Contract => like Interfaces in C# or Java
 #       Initialization of new objects (__init__)
