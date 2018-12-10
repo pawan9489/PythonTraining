@@ -17,12 +17,12 @@ class Person:
         self.name = n # Calling the Setter Function
         self.age = a # Calling the Setter Function
 
-    @property
+    @property # Getter
     def name(self): # Even though "name" is a function, can access as a variable
         print("getter of name called")
         return self._name # Access Instance Variable
 
-    @name.setter
+    @name.setter # Setter
     def name(self, value):
         print("setter of name called")
         self._name = value # Create Instance Variable
@@ -44,7 +44,7 @@ class Person:
             self._age = int(value) # Create Instance Variable
         else: # It is an Integer and out of Bounds
             raise ValueError("Age must be " +
-                             "between 0 and 100 inclusive")
+                             "between 20 and 100 inclusive")
 
     def __str__(self):
         return ", ".join(map(lambda t: t[0].capitalize() + ' - ' + str(t[1])

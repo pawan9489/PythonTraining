@@ -15,7 +15,7 @@
 
 '''
     AIM : Create a Rational Class with below Requirements
-        Rational(18, 16) # 3 / 2
+        Rational(18, 12) # 3 / 2
         Rational(13, 1) => Rational(13)
         Should not be able to Create Rational(5, 0)
         Have a ToString() with Numerator/Denominator form
